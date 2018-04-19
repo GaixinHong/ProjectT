@@ -1,0 +1,7 @@
+def task1(D):
+    J = [None] * 8
+    d_index = D.index
+    J[0] = d_index(4) + 1
+    for j in range(1, 8):
+        J[j] = d_index(4 * J[j-1]) + 1
+    return J
