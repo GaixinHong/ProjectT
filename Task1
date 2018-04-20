@@ -1,4 +1,4 @@
-def task1(D):
+def getJ(D):
     J = [None] * 8
     d_index = D.index
     J[0] = d_index(4) + 1
